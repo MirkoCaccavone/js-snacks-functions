@@ -4,16 +4,6 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-// function (nomi, lettera){
-//     let iniziali = [];
-//     for(let i = 0; i < names.length; i++){
-//         if(nomi[i].charAt(0) === lettera){
-//             iniziali.push(nomi[i]);
-//         }
-//     }
-//     return iniziali;
-
-// }
 
 function arrayWithSpecificFirstLetter(nomi, lettera){
     let specificNames =[];
